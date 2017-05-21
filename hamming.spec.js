@@ -1,5 +1,4 @@
 var Hamming = require('./hamming');
-//Wayne
 
 describe('Hamming', function () {
   var hamming = new Hamming();
