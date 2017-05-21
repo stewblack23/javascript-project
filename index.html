@@ -6,13 +6,19 @@
 
 <div id="content"></div>
 
-
-
 <script>
-var a = 5;
-var b = 5;
+//Put DNA String into variables
+//want to compare the string in each variable for comparison
 function hamming() {
-    return a * b;
+  var dna1 = "GAGCCTACTAACGGGAT";
+  var dna2 = "CATCGTAATGACGGCCT";
+  //creating a set of if else statement to run compare code.
+  if(dna1 == dna2) {
+    document.write("Wayne was here."); //test to see if if else is working
+  }
+  else {
+    document.write("Wayne is that man."); //test to see if if else is working
+  }
 }
 document.getElementById("content").innerHTML = hamming();
 </script>
