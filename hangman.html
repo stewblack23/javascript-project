@@ -1,0 +1,37 @@
+<html>
+<head>
+</head>
+
+<body>
+
+<script>
+//Put DNA String into variables
+//want to compare the string in each variable for comparison
+var dna1 = "GAGCCTACTAACGGGAT";
+var dna2 = "CATCGTAATGACGGCCT";
+var compare = dna1.localeCompare(dna2);
+function hamming() {
+  //created a if else statement to run code.
+  if(compare == 0) { 
+    document.write("These two DNA strands are equal.");
+  }
+  else if(compare == 1 ) {
+    //Tried to create a function that counts the dna1 and dna2 variable
+    function letterCount(string) {
+        var count = 0;
+        for (var i = 0, i < string.length; i++) {
+            if (string[i]) {
+                count++;
+            }
+        }
+    }
+    //This areas was to output the message and call letterCount function and count the dna1 variable.
+    document.write('The Hamming difference between two DNA strands is' + letterCount(dna1););
+
+  }
+}
+//runs the function on the page
+hamming();
+</script>
+</body>
+</html>
