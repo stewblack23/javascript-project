@@ -9,10 +9,20 @@ function user input
       output letter that was chosen
     else
       output message
-      output first part of hangman
+      output trigger animate hangman function
       output blank line
 
-function game complete
-  once all
-
-function
+function animate hangman
+  if
+    display first part of hangman
+  if else
+    display second part of hangman
+  if else
+    display third part of hangman
+  if else
+    display fourth part of hangman
+  if else
+    display firth part of hangman
+  else
+    display sixth part of hangman
+    display message game over or you lost
