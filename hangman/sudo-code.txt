@@ -1,14 +1,16 @@
-Create array holding words
-Create array with all letters
+Create array called words
+Create array called letters
 
-function to hold code for user input
-  creat
+function user input
+  capture letter when user press key
+  compare user key press with letters in array
+    loop through l
 
 
 
 
 
-function to hold code for letter matching
+function letter matching
   loop through array to find random word
     count letters in word
     see if inputed letters match letters in array
