@@ -3,8 +3,10 @@ Create array called letters
 
 function user input
   capture letter when user press key
-  compare user key press with letters in array
-    loop through l
+  loop through letter array and compare captured key press to letters array
+    compare letter array with function letter matching
+    if 
+    else display blank line
 
 
 
@@ -16,6 +18,3 @@ function letter matching
     see if inputed letters match letters in array
       if inputed letter match out put message
       else output different message
-
-function to hold code
-  created
