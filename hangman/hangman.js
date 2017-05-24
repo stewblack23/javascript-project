@@ -1,5 +1,6 @@
-var myword = ['corvette','GTR','FocusRS'];
-var guess = "e";
+var myword = ['corvette','GTR','FocusRS', 'mazdaspeed,'];
+var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h','i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's','t', 'u', 'v', 'w', 'x', 'y', 'z'];
+
 //I guess create a function that will hold the code. Function hangman will be the name.
 function hangman(){
   var findRandom = Math.floor(Math.random() * myword.length);
