@@ -1,0 +1,19 @@
+Create array holding words
+Create array with all letters
+
+function to hold code for user input
+  creat
+
+
+
+
+
+function to hold code for letter matching
+  loop through array to find random word
+    count letters in word
+    see if inputed letters match letters in array
+      if inputed letter match out put message
+      else output different message
+
+function to hold code
+  created
