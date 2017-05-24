@@ -3,18 +3,16 @@ Create array called letters
 
 function user input
   capture letter when user press key
-  loop through letter array and compare captured key press to letters array
-    compare letter array with function letter matching
-    if 
-    else display blank line
+  loop through letter array and words array and compare each array
+    if letters array match values in words array
+      output message
+      output letter that was chosen
+    else
+      output message
+      output first part of hangman
+      output blank line
 
+function game complete
+  once all
 
-
-
-
-function letter matching
-  loop through array to find random word
-    count letters in word
-    see if inputed letters match letters in array
-      if inputed letter match out put message
-      else output different message
+function
