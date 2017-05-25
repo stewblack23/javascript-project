@@ -19,14 +19,7 @@ function guess stored
   loop through guess array and compare with words array
     if guess array matches values in words array
       output message that words match
-      add letter
-
-
-
-
-
-
-
+      add letters value to work output area
 
 function animate hangman
   if

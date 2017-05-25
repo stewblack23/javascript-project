@@ -2,11 +2,29 @@
 $color-background: #c1d72e;
 $color-text-color: #ffffff;
 
-
 body {
   background-color: $color-background;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 18px;
   color: $color-text-color;
+}
+
+.input-letter {
+  font-family: Roboto,sans-serif;
+  width: 45px;
+  height: 50px;
+  font-size: 2em;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+
+.submit-button {
+  background-color: $color-text-color;
+  color: $color-background;
+  padding: 10px 25px;
+  border-radius: 4px;
+  margin-left:5px;
 }
