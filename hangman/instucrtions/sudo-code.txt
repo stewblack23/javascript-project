@@ -1,5 +1,6 @@
 Create array called words
 Create array called letters
+Create array guess
 
 function user input
   capture letter when user press key
@@ -11,6 +12,15 @@ function user input
       output message
       output trigger animate hangman function
       output blank line
+
+function called guess
+    once user has guessed an answer store in guess array
+    look into array
+      
+
+
+
+
 
 function animate hangman
   if
