@@ -20,11 +20,17 @@ body {
   background-color: transparent;
 }
 
-
 .submit-button {
   background-color: $color-text-color;
   color: $color-background;
   padding: 10px 25px;
   border-radius: 4px;
   margin-left:5px;
+  text-transform: uppercase;
+  &:hover {
+    cursor: hand;
+    background-color:transparent;
+    border:2px solid $color-text-color;
+    color: $color-text-color;
+  }
 }
