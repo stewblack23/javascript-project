@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"../../sass/style.css","sourcesContent":[]}
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAKA,KACE,iBAAA,QACA,YAAA,MAAA,CAAA,WACA,WAAA,OACA,UAAA,KACA,MAAA","file":"../../sass/style.css","sourcesContent":["//variables\r\n$color-background: #c1d72e;\r\n$color-text-color: #ffffff;\r\n\r\n\r\nbody {\r\n  background-color: $color-background;\r\n  font-family: 'Roboto', sans-serif;\r\n  text-align: center;\r\n  font-size: 18px;\r\n  color: $color-text-color;\r\n}\r\n"]}
