@@ -8,15 +8,21 @@ function user input
     if letters array match values in words array
       output message
       output letter that was chosen
+      trigger guess stored function
     else
       output message
       output trigger animate hangman function
       output blank line
 
-function called guess
-    once user has guessed an answer store in guess array
-    look into array
-      
+function guess stored
+  push new guessed letters into array
+  loop through guess array and compare with words array
+    if guess array matches values in words array
+      output message that words match
+      add letter
+
+
+
 
 
 
