@@ -10,7 +10,7 @@ body {
   color: $color-text-color;
 }
 
-.input-letter {
+#input-letter {
   font-family: Roboto,sans-serif;
   width: 45px;
   height: 50px;
@@ -20,7 +20,7 @@ body {
   background-color: transparent;
 }
 
-.submit-button {
+#submit-button {
   background-color: $color-text-color;
   color: $color-background;
   padding: 10px 25px;
