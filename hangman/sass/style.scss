@@ -28,7 +28,7 @@ body {
   margin-left:5px;
   text-transform: uppercase;
   &:hover {
-    cursor: hand;
+    cursor: pointer;
     background-color:transparent;
     border:2px solid $color-text-color;
     color: $color-text-color;

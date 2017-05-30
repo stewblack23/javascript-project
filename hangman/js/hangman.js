@@ -1,18 +1,24 @@
+//create array called words
 var words = ['corvette','GTR','FocusRS', 'mazdaspeed,'];
-var alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h','i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's','t', 'u', 'v', 'w', 'x', 'y', 'z'];
+//create array guess which is empty
 var guess = [];
 
+//create variable for how many guesses the user receives
+var guessLives = 6;
+
+
+
+
 //Getting elements to be called later
-var submitLetter = document.getElementById("submit-button");
-var inputField = document.getElementById("input-letter");
+document.getElementById("submit-button");
+document.getElementById("input-letter");
 
 //Captureing Keypress in field
-document.getElementById("submit-button").addEventListener("click", function(){
-console.log("submit-button");
-});
 
 
 
+main.lives = 4;
+var lives = 4
 // function hangman(){
 //   var findRandom = Math.floor(Math.random() * myword.length);
 //   var pickWord =  myword[findRandom];

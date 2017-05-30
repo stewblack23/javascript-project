@@ -1,6 +1,6 @@
 Create array called words
 Create array called letters
-Create array guess
+Create array guess which is empty
 
 function user input
   capture letter when user press key
@@ -34,4 +34,4 @@ function animate hangman
     display firth part of hangman
   else
     display sixth part of hangman
-    display message game over or you lost
+    display message game over and or you lost
