@@ -6,14 +6,17 @@ var guess = [];
 //create variable for how many guesses the user receives
 var guessLives = 6;
 
+//.indexOf type will return the index
 
-//Getting elements to be called later
+//.split
 
+function getWords() {
+    var findRandom = Math.floor(Math.random() * words.length);
+    var pickWord =  words[findRandom];
+    // console.log(pickWord);
+}
 
-//Captureing Keypress in field
-
-
-
+getWords()
 
 // function hangman(){
 //   var findRandom = Math.floor(Math.random() * myword.length);

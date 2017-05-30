@@ -20,7 +20,12 @@ body {
     margin-left:5px;
     text-transform: uppercase;
     text-decoration:none;
-
+    &:hover {
+      cursor: pointer;
+      background-color:transparent;
+      border:1px solid $color-text-color;
+      color: $color-text-color;
+    }
   }
 }
 
