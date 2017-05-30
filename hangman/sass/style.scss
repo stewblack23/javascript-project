@@ -10,6 +10,21 @@ body {
   color: $color-text-color;
 }
 
+.letter-select li {
+  display:inline-block;
+  a {
+    background-color: $color-text-color;
+    color: $color-background;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left:5px;
+    text-transform: uppercase;
+    text-decoration:none;
+
+  }
+}
+
+
 #input-letter {
   font-family: Roboto,sans-serif;
   width: 45px;

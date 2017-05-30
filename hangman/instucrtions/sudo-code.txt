@@ -1,6 +1,7 @@
-Create array called words
-Create array called letters
-Create array guess which is empty
+create array called words
+create array guess which is empty
+create variable for how many guesses the user receives
+
 
 function user input
   capture letter when user press key

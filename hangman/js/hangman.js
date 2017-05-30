@@ -7,18 +7,14 @@ var guess = [];
 var guessLives = 6;
 
 
-
-
 //Getting elements to be called later
-document.getElementById("submit-button");
-document.getElementById("input-letter");
+
 
 //Captureing Keypress in field
 
 
 
-main.lives = 4;
-var lives = 4
+
 // function hangman(){
 //   var findRandom = Math.floor(Math.random() * myword.length);
 //   var pickWord =  myword[findRandom];
