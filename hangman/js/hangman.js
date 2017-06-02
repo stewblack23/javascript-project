@@ -10,13 +10,20 @@ var guessLives = 6;
 
 //.split
 
+// function looks into words array and creates a random selection within the array
 function getWords() {
     var findRandom = Math.floor(Math.random() * words.length);
     var pickWord =  words[findRandom];
-    // console.log(pickWord);
+    console.log(pickWord);
 }
 
-getWords()
+function underlined() {
+  getWords()
+  for (i = 0; i < words.length; i++) {
+    
+  }
+}
+
 
 // function hangman(){
 //   var findRandom = Math.floor(Math.random() * myword.length);
