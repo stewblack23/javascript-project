@@ -1,5 +1,5 @@
 //create array called words
-var words = ['corvette','GTR','FocusRS', 'mazdaspeed,'];
+var words = ['corvette','GTR','FocusRS', 'mazdaspeed', 'Accord'];
 //create array guess which is empty
 var guess = [];
 
